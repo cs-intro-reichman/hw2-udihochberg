@@ -11,10 +11,10 @@ public class Cheers {
                 char c = word.charAt(letterrCounter);
                 if (forbidenLetters.indexOf(c) == -1)
                 {
-                        System.out.println("Give me a "+c+"!");
+                        System.out.println("Give me a "+c+": "+c+"!");
 
                 }
-                else { System.out.println("Give me an "+c+"!"); }
+                else { System.out.println("Give me an "+c+": "+c+"!"); }
                 letterrCounter++;
             }
             System.out.println("What does that spell?");
