@@ -26,6 +26,6 @@ public class Collatz {
 	
 		System.out.println("1 (" +(insideLoopCouter+1) +")");
 	}
-		System.out.println("Every one of the first " +num+" hailstone sequences reached 1");
+		System.out.println("Every one of the first " +num+" hailstone sequences reached 1.");
 	}
 }
