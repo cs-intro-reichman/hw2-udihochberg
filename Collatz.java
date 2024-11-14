@@ -15,7 +15,7 @@ public class Collatz {
 			newNum = i;
 			while (outsideLoopCounter > -1)
 			{
-				System.out.print(newNum+", ");				
+				System.out.print(newNum+" ");				
 				if (newNum % 2 == 0) {newNum = newNum / 2;}
 				else                 {newNum = (newNum * 3) + 1; }
 				insideLoopCouter++;
