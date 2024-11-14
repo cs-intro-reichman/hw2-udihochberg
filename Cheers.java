@@ -11,7 +11,7 @@ public class Cheers {
                 char c = word.charAt(letterrCounter);
                 if (forbidenLetters.indexOf(c) == -1)
                 {
-                        System.out.println("Give me a "+c+": "+c+"!");
+                        System.out.println("Give me a  "+c+": "+c+"!");
 
                 }
                 else { System.out.println("Give me an "+c+": "+c+"!"); }
